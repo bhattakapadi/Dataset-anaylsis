@@ -1,0 +1,9 @@
+name: myenv
+channels:
+  - defaults
+dependencies:
+  - python=3.7
+  - deepface
+  - ipywidgets
+prefix: /home/manish/anaconda3/envs/myenv
+
