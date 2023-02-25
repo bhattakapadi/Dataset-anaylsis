@@ -29,7 +29,7 @@ def getWords1():
             'service technician','heating mechanic','electrical installer','operating engineer','logging worker',
             'floor installer','roofer','mining machine operator','electrician','repairer',
             'conductor','plumber','carpenter','security system installer','mason','firefighter',
-            'salesperson','director of religious activities','crossing guard','photographer','lifeguard',
+            'salesperson','director of religious activities','crossing guard','lifeguard',
             'lodging manager','healthcare practitioner','sales agent','mail clerk','electrical assembler',
             'insurance sales agent','insurance underwriter','medical scientist','statistician','training specialist',
             'judge','bartender','dispatcher','order clerk','mail sorter']
