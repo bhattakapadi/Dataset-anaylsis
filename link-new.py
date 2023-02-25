@@ -52,7 +52,7 @@ def downloadImageDataset(sv_dir,datasetname,word):
     wordPattern =  [ str(" "+word+" "), '-'.join((word.split(' ')))  ]
 
     for x in range(0, rows-1): #for the end of the dataset 
-        print("current rows: "+str(x))
+        #print("current rows: "+str(x))
         for ws in wordPattern:
             val=dfn[x][1].lower().find(ws)
             if val != -1 :  #val takes -1 if the word is not encountered
