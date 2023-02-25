@@ -49,7 +49,7 @@ def downloadImageDataset(sv_dir,datasetname,word):
     cols = dfn.shape[1]
     val = -1 # inital value no word match
     
-    wordPattern =  [word, '-'.join((word.split(' ')))  ]
+    wordPattern =  [ str(" "+word+" "), '-'.join((word.split(' ')))  ]
 
     for x in range(0, rows-1): #for the end of the dataset 
         print("current rows: "+str(x))
