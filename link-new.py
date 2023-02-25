@@ -23,7 +23,7 @@ from datetime import datetime
 
 def getWords1():
     return ['kindergarten teacher','dental hygienist','speech-language pathologist','dental assistant','childcare worker',
-            'medical records technician','medical assistant','hairdresser','dietitian','vocational nurse',
+            'medical records technician','secretary','medical assistant','hairdresser','dietitian','vocational nurse',
             'teacher assistant','paralegal','billing clerk','phlebotomist','receptionist','housekeeper','registered nurse',
             'bookkeeper','health aide','taper','steel worker','mobile equipment mechanic','bus mechanic',
             'service technician','heating mechanic','electrical installer','operating engineer','logging worker',
@@ -33,7 +33,6 @@ def getWords1():
             'lodging manager','healthcare practitioner','sales agent','mail clerk','electrical assembler',
             'insurance sales agent','insurance underwriter','medical scientist','statistician','training specialist',
             'judge','bartender','dispatcher','order clerk','mail sorter']
-
 
 
 def downloadImageDataset(sv_dir,datasetname,word):
@@ -83,8 +82,8 @@ def downloadImageDataset(sv_dir,datasetname,word):
 
 
 if __name__ == "__main__":
-    dataset_dir= "/home/bhatta/dataset/laion-super-resolution"
-    save_dir = "/home/bhatta/docs/fotos2"
+    dataset_dir= "/home/ec2-user/dataset"
+    save_dir = "/home/ec2-user/fotos"
     dataset_list = list(os.listdir(dataset_dir)) 
     dataset_name = os.path.join(dataset_dir,dataset_list[0])
 
