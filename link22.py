@@ -134,7 +134,7 @@ if __name__ == "__main__":
     os.mkdir(pathname)
     os.chdir(pathname)
     #num_workers = mp.cpu_count()
-    www=getWords2()
+    www=getWords1()
     for wordstring in www:
         #paath = ast.literal_eval(wordstring)[1]
         #os.mkdir(paath)
@@ -143,14 +143,12 @@ if __name__ == "__main__":
         #print(paath)
         save_dir_job=os.path.join(os.getcwd(),paath)
         index = 1
-        res = getWorkers2(save_dir_job,dataset_dir,wordstring,dataset_list)
-        """
+        #res = getWorkers(save_dir_job,dataset_dir,wordstring,dataset_list)
         for datast_name in dataset_list2:
             print("Dataset_name: " + str(datast_name))
             res = getWorkers(save_dir_job,dataset_dir,wordstring,datast_name)
             print(str(index )+" complete")
             index = index +1
-        """
             
    
 
