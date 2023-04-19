@@ -4,6 +4,9 @@
 # In[2]:
 
 
+#used for extraction of images from the dataset
+
+
 import pandas as pd
 import urllib
 import requests
