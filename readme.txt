@@ -1,4 +1,6 @@
-this is demo
+link-para: extraction of images from the dataset
+demo.py: evaluation of the extracted images by frameworks
+
 
 
 link to dataset:
