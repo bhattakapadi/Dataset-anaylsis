@@ -1,3 +1,6 @@
+
+Use with nohup : nohup python link-para.py &
+
 link-para: extraction of images from the dataset
 demo.py: evaluation of the extracted images by frameworks
 
