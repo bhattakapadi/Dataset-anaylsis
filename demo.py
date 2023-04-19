@@ -1,3 +1,5 @@
+#image analysis using framework democlassi and deepface
+
 from deepface import DeepFace
 import face_recognition
 from PIL import Image
